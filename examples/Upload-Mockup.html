@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Standard Meta -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        <!-- Site Properties -->
+        <title>Add deck</title>
+        <link rel="stylesheet" type="text/css" href="../dist/semantic.css">
+        <link rel="stylesheet" type="text/css" href="../dist/components/menu.css">
+        <link rel="stylesheet" type="text/css" href="../dist/components/dropdown.css">
+
+        <script src="assets/library/jquery.min.js"></script>
+        <script src="assets/library/iframe.js"></script>
+
+        <style type="text/css">
+            body > .ui.container {
+                margin-top: 3em;
+            }
+
+
+            .ui.container > h1 {
+                font-size: 3em;
+                text-align: center;
+                font-weight: normal;
+            }
+            .ui.container > h2.dividing.header {
+                font-size: 2em;
+                font-weight: normal;
+                margin: 4em 0em 3em;
+            }
+
+
+            .ui.table {
+                table-layout: fixed;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ui page grid inverted blue menu" >
+            <div class="ui container" >
+                <a href="/" class="header item">
+                <img class="logo" src="/assets/images/slidewiki-square-notext-glow.svg" >&nbsp; SlideWiki</a>
+                <a class="item" href="/about" >About</a>
+                <div class="item right" ><div class="ui small icon input" ><input type="text" placeholder="Search..." >
+                    <i class="search link icon" >
+                    </i>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="ui right labeled icon button">
+                        <i class="add icon"></i>Add deck
+                    </div>
+                </div>
+                <div class="item">
+                    <img class="ui avatar image" src="/images/wireframe/square-image.png">
+                    <span>Username</span>
+                </div>
+                <div><a class="item right" href="/notifications" >
+                    <i class="large icons" >
+                        <i class="newspaper icon" ></i>
+                        <span class="ui mini floating red label ">1</span>
+                    </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui container">
+            <h3>Upload existing deck</h3>
+            <div class="ui grid">
+                <div class="sixteen wide column">
+                    <div class="ui grid">
+                        <div class="two column row">
+                            <div class="column">
+                                <div class="ui primary button" >Choose existing slides</div>
+                            </div>
+                            <div class="column">File name 
+                                <a>
+                                <i class="very large help circle icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui progress" >
+                        <div class="bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="label">Uploading Files</div>
+                    </div>
+                    <form class="ui form upload">
+                        <div class="two fields">
+                            <div class="required field">
+                                <label>Title</label>
+                                <input type="text" name="deck-title" placeholder="Title" >
+                            </div>
+                            <div class="required field">
+                                <label >Language</label><select class="ui search dropdown" >
+                                <option value="">Select Language</option>                        
+                                <option value="ES">Spain</option>
+                                <option value="SE">Sweden</option>
+                                <option value="CH">Switzerland</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="US">United States</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label >Description</label>
+                            <textarea rows="4" ></textarea>
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label >Choose deck theme</label>
+                                <select class="ui search dropdown" >
+                                    <option value="">Select Theme</option>
+                                    <option value="DefaultTheme">Default</option>
+                                    <option value="TH1">Theme 1</option>
+                                    <option value="TH2">Theme2</option>
+                                    <option value="TH3">Theme3</option>
+                                </select>
+                            </div>
+                            <div class="required field">
+                                <label >License</label>
+                                <select class="ui search dropdown" name="license" >
+                                    <option value="">Select License</option>
+                                    <option value="CCBY">CC BY</option><option value="CCBHYSA">CC BY</option>
+                                    <option value="CCSA">CC SA</option><option value="CCBHYSA">CC SA</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="fluid inline field ">
+                            <i class="ui tags large icon"></i>
+                            <input type="text" placeholder="Add Tags">
+                        </div>
+                        <div class="required inline field">
+                            <div class="ui checkbox" >
+                                <input type="checkbox">
+                                <label >I agree to the terms and conditions</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="two column row">
+                    <div class="column">
+                        <div class="ui primary button" >Choose existing slides</div>
+                    </div>
+                    <div class="column">
+                        <div class="ui secondary button" >Cancel</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="ui container" >
+    <div class="ui small image">
+
+</div>
+        </div>
+        
+            
+
+        <div class="ui footer sticky segment" >
+            <div class="ui center aligned container" >
+                <p >Copyright © 2016 · All Rights Reserved Build: master @9f6c94a</p>
+            </div></div>
+
+
+    </body>
+
+</html>

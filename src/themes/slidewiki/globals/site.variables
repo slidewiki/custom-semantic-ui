@@ -84,7 +84,7 @@
 --------------------*/
 
 /* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
+@focusedFormBorderColor: #155482;
 
 /* Used on dropdowns, other larger blocks */
 @focusedFormMutedBorderColor: #96C8DA;
@@ -300,7 +300,7 @@
 --------------------*/
 
 /* Positive */
-@positiveColor           : @green;
+@positiveColor           : @teal;
 @positiveBackgroundColor : #FCFFF5;
 @positiveBorderColor     : #A3C293;
 @positiveHeaderColor     : #1A531B;
