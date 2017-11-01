@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.1 - Icon
+ * # Semantic UI 2.2.13 - Icon
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -119,13 +119,15 @@ i.fitted.icon {
          Link
 --------------------*/
 
-i.link.icon {
+i.link.icon,
+i.link.icons {
   cursor: pointer;
   opacity: 0.8;
   -webkit-transition: opacity 0.1s ease;
   transition: opacity 0.1s ease;
 }
-i.link.icon:hover {
+i.link.icon:hover,
+i.link.icons:hover {
   opacity: 1 !important;
 }
 
@@ -137,13 +139,15 @@ i.circular.icon {
   border-radius: 500em !important;
   line-height: 1 !important;
   padding: 0.5em 0.5em !important;
-  box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
+          box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
   width: 2em !important;
   height: 2em !important;
 }
 i.circular.inverted.icon {
   border: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 /*-------------------
@@ -186,11 +190,13 @@ i.bordered.icon {
   width: 2em;
   height: 2em;
   padding: 0.5em 0.41em !important;
-  box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
+  -webkit-box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
+          box-shadow: 0em 0em 0em 0.1em rgba(0, 0, 0, 0.1) inset;
 }
 i.bordered.inverted.icon {
   border: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 /*-------------------
@@ -218,7 +224,7 @@ i.red.icon {
   color: #DB2828 !important;
 }
 i.inverted.red.icon {
-  color: #FF695E !important;
+  color: #E76A6A !important;
 }
 i.inverted.bordered.red.icon,
 i.inverted.circular.red.icon {
@@ -231,7 +237,7 @@ i.orange.icon {
   color: #DA6619 !important;
 }
 i.inverted.orange.icon {
-  color: #FF851B !important;
+  color: #E28447 !important;
 }
 i.inverted.bordered.orange.icon,
 i.inverted.circular.orange.icon {
@@ -244,7 +250,7 @@ i.yellow.icon {
   color: #FFD900 !important;
 }
 i.inverted.yellow.icon {
-  color: #FFE21F !important;
+  color: #FFE134 !important;
 }
 i.inverted.bordered.yellow.icon,
 i.inverted.circular.yellow.icon {
@@ -257,7 +263,7 @@ i.olive.icon {
   color: #B5CC18 !important;
 }
 i.inverted.olive.icon {
-  color: #D9E778 !important;
+  color: #CADB5D !important;
 }
 i.inverted.bordered.olive.icon,
 i.inverted.circular.olive.icon {
@@ -270,7 +276,7 @@ i.green.icon {
   color: #188130 !important;
 }
 i.inverted.green.icon {
-  color: #2ECC40 !important;
+  color: #74B584 !important;
 }
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
@@ -283,7 +289,7 @@ i.teal.icon {
   color: #158570 !important;
 }
 i.inverted.teal.icon {
-  color: #6DFFFF !important;
+  color: #8AC2B8 !important;
 }
 i.inverted.bordered.teal.icon,
 i.inverted.circular.teal.icon {
@@ -293,14 +299,14 @@ i.inverted.circular.teal.icon {
 
 /* Blue */
 i.blue.icon {
-  color: #2185D0 !important;
+  color: #1E78BB !important;
 }
 i.inverted.blue.icon {
-  color: #54C8FF !important;
+  color: #7AB0D7 !important;
 }
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
-  background-color: #2185D0 !important;
+  background-color: #1E78BB !important;
   color: #FFFFFF !important;
 }
 
@@ -309,7 +315,7 @@ i.violet.icon {
   color: #6435C9 !important;
 }
 i.inverted.violet.icon {
-  color: #A291FB !important;
+  color: #A485DD !important;
 }
 i.inverted.bordered.violet.icon,
 i.inverted.circular.violet.icon {
@@ -322,7 +328,7 @@ i.purple.icon {
   color: #A333C8 !important;
 }
 i.inverted.purple.icon {
-  color: #DC73FF !important;
+  color: #C783E0 !important;
 }
 i.inverted.bordered.purple.icon,
 i.inverted.circular.purple.icon {
@@ -335,7 +341,7 @@ i.pink.icon {
   color: #E03997 !important;
 }
 i.inverted.pink.icon {
-  color: #FF8EDF !important;
+  color: #EC89BF !important;
 }
 i.inverted.bordered.pink.icon,
 i.inverted.circular.pink.icon {
@@ -348,7 +354,7 @@ i.brown.icon {
   color: #A5673F !important;
 }
 i.inverted.brown.icon {
-  color: #D67C1C !important;
+  color: #C9A38B !important;
 }
 i.inverted.bordered.brown.icon,
 i.inverted.circular.brown.icon {
@@ -361,7 +367,7 @@ i.grey.icon {
   color: #767676 !important;
 }
 i.inverted.grey.icon {
-  color: #DCDDDE !important;
+  color: #E6E6E6 !important;
 }
 i.inverted.bordered.grey.icon,
 i.inverted.circular.grey.icon {
@@ -374,7 +380,7 @@ i.black.icon {
   color: #1B1C1D !important;
 }
 i.inverted.black.icon {
-  color: #545454 !important;
+  color: #AEAEAE !important;
 }
 i.inverted.bordered.black.icon,
 i.inverted.circular.black.icon {
@@ -469,6 +475,30 @@ i.icons .corner.icon {
           transform: none;
   font-size: 0.45em;
   text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+}
+i.icons .top.right.corner.icon {
+  top: 0;
+  left: auto;
+  right: 0;
+  bottom: auto;
+}
+i.icons .top.left.corner.icon {
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: auto;
+}
+i.icons .bottom.left.corner.icon {
+  top: auto;
+  left: 0;
+  right: auto;
+  bottom: 0;
+}
+i.icons .bottom.right.corner.icon {
+  top: auto;
+  left: auto;
+  right: 0;
+  bottom: 0;
 }
 i.icons .inverted.corner.icon {
   text-shadow: -1px -1px 0 #1B1C1D, 1px -1px 0 #1B1C1D, -1px 1px 0 #1B1C1D, 1px 1px 0 #1B1C1D;

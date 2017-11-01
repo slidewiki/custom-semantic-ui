@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.1 - Ad
+ * # Semantic UI 2.2.13 - Ad
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -240,7 +240,7 @@
 }
 .ui.test.ad {
   position: relative;
-  background: #545454;
+  background: #AEAEAE;
 }
 .ui.test.ad:after {
   position: absolute;

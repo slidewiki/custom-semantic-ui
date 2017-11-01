@@ -1,5 +1,5 @@
 /*!
- * # Semantic UI 2.2.1 - Header
+ * # Semantic UI 2.2.13 - Header
  * http://github.com/semantic-org/semantic-ui/
  *
  *
@@ -69,7 +69,7 @@
         Image
 --------------------*/
 
-.ui.header > .image,
+.ui.header > .image:not(.icon),
 .ui.header > img {
   display: inline-block;
   margin-top: 0.14285em;
@@ -77,7 +77,7 @@
   height: auto;
   vertical-align: middle;
 }
-.ui.header > .image:only-child,
+.ui.header > .image:not(.icon):only-child,
 .ui.header > img:only-child {
   margin-right: 0.75rem;
 }
@@ -301,15 +301,19 @@ h5.ui.header .sub.header {
   color: rgba(255, 255, 255, 0.8);
 }
 .ui.inverted.attached.header {
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  box-shadow: none;
+  background: #AEAEAE -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
+  background: #AEAEAE -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #AEAEAE linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border-color: transparent;
 }
 .ui.inverted.block.header {
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  box-shadow: none;
+  background: #AEAEAE -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.05)));
+  background: #AEAEAE -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: #AEAEAE linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 .ui.inverted.block.header {
   border-bottom: none;
@@ -334,10 +338,10 @@ a.ui.red.header:hover {
 
 /* Inverted */
 .ui.inverted.red.header {
-  color: #FF695E !important;
+  color: #E76A6A !important;
 }
 a.ui.inverted.red.header:hover {
-  color: #ff5144 !important;
+  color: #eb4d4d !important;
 }
 
 /*--- Orange ---*/
@@ -354,10 +358,10 @@ a.ui.orange.header:hover {
 
 /* Inverted */
 .ui.inverted.orange.header {
-  color: #FF851B !important;
+  color: #E28447 !important;
 }
 a.ui.inverted.orange.header:hover {
-  color: #ff7701 !important;
+  color: #e77328 !important;
 }
 
 /*--- Olive ---*/
@@ -374,10 +378,10 @@ a.ui.olive.header:hover {
 
 /* Inverted */
 .ui.inverted.olive.header {
-  color: #D9E778 !important;
+  color: #CADB5D !important;
 }
 a.ui.inverted.olive.header:hover {
-  color: #d8ea5c !important;
+  color: #c8dd41 !important;
 }
 
 /*--- Yellow ---*/
@@ -394,10 +398,10 @@ a.ui.yellow.header:hover {
 
 /* Inverted */
 .ui.inverted.yellow.header {
-  color: #FFE21F !important;
+  color: #FFE134 !important;
 }
 a.ui.inverted.yellow.header:hover {
-  color: #ffdf05 !important;
+  color: #ffdd1a !important;
 }
 
 /*--- Green ---*/
@@ -414,10 +418,10 @@ a.ui.green.header:hover {
 
 /* Inverted */
 .ui.inverted.green.header {
-  color: #2ECC40 !important;
+  color: #74B584 !important;
 }
 a.ui.inverted.green.header:hover {
-  color: #22be34 !important;
+  color: #60b073 !important;
 }
 
 /*--- Teal ---*/
@@ -434,30 +438,30 @@ a.ui.teal.header:hover {
 
 /* Inverted */
 .ui.inverted.teal.header {
-  color: #6DFFFF !important;
+  color: #8AC2B8 !important;
 }
 a.ui.inverted.teal.header:hover {
-  color: #54ffff !important;
+  color: #76bcb0 !important;
 }
 
 /*--- Blue ---*/
 
 .ui.blue.header {
-  color: #2185D0 !important;
+  color: #1E78BB !important;
 }
 a.ui.blue.header:hover {
-  color: #1678c2 !important;
+  color: #146bac !important;
 }
 .ui.blue.dividing.header {
-  border-bottom: 2px solid #2185D0;
+  border-bottom: 2px solid #1E78BB;
 }
 
 /* Inverted */
 .ui.inverted.blue.header {
-  color: #54C8FF !important;
+  color: #7AB0D7 !important;
 }
 a.ui.inverted.blue.header:hover {
-  color: #3ac0ff !important;
+  color: #61a5d6 !important;
 }
 
 /*--- Violet ---*/
@@ -474,10 +478,10 @@ a.ui.violet.header:hover {
 
 /* Inverted */
 .ui.inverted.violet.header {
-  color: #A291FB !important;
+  color: #A485DD !important;
 }
 a.ui.inverted.violet.header:hover {
-  color: #8a73ff !important;
+  color: #946cdd !important;
 }
 
 /*--- Purple ---*/
@@ -494,10 +498,10 @@ a.ui.purple.header:hover {
 
 /* Inverted */
 .ui.inverted.purple.header {
-  color: #DC73FF !important;
+  color: #C783E0 !important;
 }
 a.ui.inverted.purple.header:hover {
-  color: #d65aff !important;
+  color: #c069e0 !important;
 }
 
 /*--- Pink ---*/
@@ -514,10 +518,10 @@ a.ui.pink.header:hover {
 
 /* Inverted */
 .ui.inverted.pink.header {
-  color: #FF8EDF !important;
+  color: #EC89BF !important;
 }
 a.ui.inverted.pink.header:hover {
-  color: #ff74d8 !important;
+  color: #ee6db4 !important;
 }
 
 /*--- Brown ---*/
@@ -534,10 +538,10 @@ a.ui.brown.header:hover {
 
 /* Inverted */
 .ui.inverted.brown.header {
-  color: #D67C1C !important;
+  color: #C9A38B !important;
 }
 a.ui.inverted.brown.header:hover {
-  color: #c86f11 !important;
+  color: #c49476 !important;
 }
 
 /*--- Grey ---*/
@@ -554,10 +558,10 @@ a.ui.grey.header:hover {
 
 /* Inverted */
 .ui.inverted.grey.header {
-  color: #DCDDDE !important;
+  color: #E6E6E6 !important;
 }
 a.ui.inverted.grey.header:hover {
-  color: #cfd0d2 !important;
+  color: #d9d9d9 !important;
 }
 
 /*-------------------
@@ -632,7 +636,8 @@ a.ui.inverted.grey.header:hover {
 .ui.block.header {
   background: #F3F4F5;
   padding: 0.71428571rem 1rem;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border: 1px solid #D4D4D5;
   border-radius: 0.28571429rem;
 }
@@ -661,7 +666,8 @@ a.ui.inverted.grey.header:hover {
   padding: 0.71428571rem 1rem;
   margin-left: -1px;
   margin-right: -1px;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border: 1px solid #D4D4D5;
 }
 .ui.attached.block.header {
