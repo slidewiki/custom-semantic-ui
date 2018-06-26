@@ -34,3 +34,4 @@ nbproject
 *.sublime-workspace
 .build*
 .lock
+.idea
